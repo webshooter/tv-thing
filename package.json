@@ -1,0 +1,28 @@
+{
+  "name": "tv-thing",
+  "version": "1.0.0",
+  "description": "tv-thing",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha --compilers js:mocha-traceur test/**/*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^2.2.11",
+    "mongoose": "^4.6.5"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-ignore": "^2.0.1",
+    "gulp-jshint": "^2.0.2",
+    "gulp-mocha": "^3.0.1",
+    "gulp-rimraf": "^0.2.0",
+    "gulp-shell": "^0.5.2",
+    "gulp-traceur": "^0.17.2",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1",
+    "mocha-traceur": "^2.1.0"
+  }
+}
